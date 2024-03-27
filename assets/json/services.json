@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Web Development",
+        "description": "Crafting dynamic and responsive websites tailored to your needs using HTML, CSS, JavaScript, PHP, and MySQL. I bring your online vision to life with precision and creativity.",
+        "link": "",
+        "icon": ["bx", "bx-code-alt"],
+        "type": "service",
+        "status": true
+    },
+    {
+        "id": 2,
+        "title": "Video Editing",
+        "description": "Elevating your content with professional video editing services. Utilizing industry-standard tools like Premiere Pro, After Effects, Blender, and more, I ensure captivating and polished videos tailored to your vision.",
+        "link": "",
+        "icon": ["bx", "bxs-videos"],
+        "type": "service",
+        "status": true
+    },
+    {
+        "id": 3,
+        "title": "Python Fundamentals",
+        "description": "Learn Pyhton with my comprehensive fundamentals course. From mastering variables to creating your own useful Python scripts, join me for a free immersive experience in the world of Python programming.",
+        "link": "",
+        "icon": ["bx", "bxl-python"],
+        "type": "course",
+        "status": false
+    }
+]

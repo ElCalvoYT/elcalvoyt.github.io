@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <!-- Custom Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+    <title>ElCalvoYT - Home</title>
+</head>
+<body>
+    <!-- Header -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="assets/images/ElCalvoYT-logo.JPG" alt="logo">
+            ElCalvoYT
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>ElCalvoYT</h1>
+            <h3>And I'm a <span class="multiple-text-home"></span></h3>
+            <p>Juan Simón Ibarra Podhajecki (ElCalvoYT): Passionate 15-year-old coder, video editor, and entrepreneur. Welcome to my world!</p>
+
+            <div class="social-media">
+                <a href="https://www.youtube.com/ElCalvoYT" target="_blank"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.twitch.tv/ElCalvoYT" target="_blank"><i class="bx bxl-twitch"></i></a>
+                <a href="https://www.instagram.com/elcalvoyt.official" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+            <a href="assets/documents/Juan Simón Ibarra Podhajecki CV.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/images/home/home.png" id="home-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/images/about/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+            <h3>I'm a <span class="multiple-text-about"></span></h3>
+            <p>Hello! My name is Juan Simón Ibarra Podhajecki, also known as ElCalvoYT. I'm a 15-year-old student currently based in Germany, where I indulge my passion for all things computer-related. From gaming to programming, my journey with technology has been both exciting and rewarding.
+            <br>
+            In the past three years [...]</p>
+            <a href="assets/html/about.html" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container" id="services-container"></div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container" id="projects-container"></div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" class="important-input" name="name" id="name" placeholder="Full Name" required>
+                <input type="email" class="important-input" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" class="important-input" name="mobileNumber" id="mobile-number" placeholder="Mobile Number" required>
+                <input type="text" class="important-input" name="subject" id="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" class="important-input" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <p class="info"></p>
+            <input type="submit" value="Send Message" class="btn" id="submit-btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 - <span id="footer-year" style="color: var(--text-color);"></span> by ElCalvoYT | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home">
+                <i class="bx bx-up-arrow-alt"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="assets/js/homeImage.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/services.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

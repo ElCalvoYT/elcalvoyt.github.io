@@ -1,0 +1,29 @@
+@keyframes floatAndMove {
+    0%, 100% {
+        transform: translateY(0) translate(var(--mouseX), var(--mouseY));
+    }
+    50% {
+        transform: translateY(-2.4rem) translate(var(--mouseX), var(--mouseY));
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+}
+
+@keyframes fieldError {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(5px);
+    }
+    75%{
+        transform: translateX(-5px);
+    }
+}

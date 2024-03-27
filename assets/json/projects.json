@@ -1,0 +1,23 @@
+[
+    {
+        "title": "AI Trust & Decision Dynamics",
+        "description": "Exploring the impact of AI decisions on societal trust dynamics.",
+        "language": ["german"],
+        "link": "https://youtu.be/Z-pQ3MkaOhY",
+        "image": "assets/images/projects/vertrauen-entscheidungen-ki.png"
+    },
+    {
+        "title": "Xinitry",
+        "description": "Xinitry is a web developer & video editing company. We focus in modern digital ways specific for millennials and generation Z needs.",
+        "language": ["english", "spanish", "german"],
+        "link": "https://www.xinitry.com",
+        "image": "assets/images/projects/xinitry.png"
+    },
+    {
+        "title": "Racheakt - Eine Offene Rechnung",
+        "description": "A horror short film produced for a school project.",
+        "language": ["english","german"],
+        "link": "https://youtu.be/FxTrbACj85w",
+        "image": "assets/images/projects/racheakt.png"
+    }
+]
