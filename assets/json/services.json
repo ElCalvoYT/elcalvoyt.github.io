@@ -21,9 +21,9 @@
         "id": 3,
         "title": "Python Fundamentals",
         "description": "Learn Pyhton with my comprehensive fundamentals course. From mastering variables to creating your own useful Python scripts, join me for a free immersive experience in the world of Python programming.",
-        "link": "",
+        "link": "python-fundamentals",
         "icon": ["bx", "bxl-python"],
         "type": "course",
-        "status": false
+        "status": true
     }
 ]

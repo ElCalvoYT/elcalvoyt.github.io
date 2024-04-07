@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Python Fundamentals Course",
+        "icon": [
+            "bx",
+            "bxl-python"
+        ],
+        "lessons": [
+            {
+                "id": 1,
+                "title": "Welcome",
+                "video": "https://www.youtube.com/embed/6EyriiG2mx4"
+            },
+            {
+                "id": 2,
+                "title": "Setup",
+                "video": "https://www.youtube.com/embed/g0yCAuG930w"
+            },
+            {
+                "id": 3,
+                "title": "Data Types",
+                "video": "https://www.youtube.com/embed/51nhLz5dI88"
+            },
+            {
+                "id": 4,
+                "title": "Print()",
+                "video": "https://www.youtube.com/embed/keSggYP5NOs"
+            },
+            {
+                "id": 5,
+                "title": "Variables",
+                "video": "https://www.youtube.com/embed/Hgw8IcIuGhc"
+            },
+            {
+                "id": 6,
+                "title": "Complex Data Types",
+                "video": "https://www.youtube.com/embed/ufcs_iBk1uI"
+            },
+            {
+                "id": 7,
+                "title": "Arithmetic Operators",
+                "video": "https://www.youtube.com/embed/xB3N5Th1TVw"
+            },
+            {
+                "id": 8,
+                "title": "Integrated Functions",
+                "video": "https://www.youtube.com/embed/fdamfTr-FJU"
+            },
+            {
+                "id": 9,
+                "title": "Create Functions",
+                "video": "https://www.youtube.com/embed/qssrWquawyc"
+            },
+            {
+                "id": 10,
+                "title": "Conditions",
+                "video": "https://www.youtube.com/embed/OkegtK-N1zw"
+            },
+            {
+                "id": 11,
+                "title": "Manage Complex Data Types",
+                "video": "https://www.youtube.com/embed/HCmcOLtsvew"
+            },
+            {
+                "id": 12,
+                "title": "While Loops",
+                "video": "https://www.youtube.com/embed/rG27GURWSTo"
+            },
+            {
+                "id": 13,
+                "title": "For Loops",
+                "video": "https://www.youtube.com/embed/Dxf0O0BEJ3c"
+            },
+            {
+                "id": 14,
+                "title": "Exit() - Good Bye",
+                "video": "https://www.youtube.com/embed/AEhwCFt0Onc"
+            }
+        ]
+    }
+]

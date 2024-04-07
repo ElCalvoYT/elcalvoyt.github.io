@@ -31,7 +31,7 @@ fetch("assets/json/services.json")
 
       if (service.type == "course") {
 
-        a.href = `assets/html/course.html?id=${service.id}`;
+        a.href = `assets/html/course.html?course=${service.link}`;
 
       }
 
