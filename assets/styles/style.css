@@ -223,7 +223,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                padding: 0 4rem;
+                padding: 0 2rem;
                 background:rgba(0, 0, 0, .7);
                 display: flex;
                 flex-direction: column;
@@ -232,13 +232,14 @@
                 text-align: center;
                 transition: .5s ease;
                 transform: translateY(100%);
+                overflow: hidden;
 
                 & h4{
-                    font-size: 2.8rem;
+                    font-size: 2rem;
                 }
 
                 & p{
-                    font-size: 1.6rem;
+                    font-size: 1.2rem;
                     margin: .3rem 0 1rem;
                 }
 

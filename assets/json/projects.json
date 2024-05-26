@@ -19,5 +19,12 @@
         "language": ["english","german"],
         "link": "https://youtu.be/FxTrbACj85w",
         "image": "assets/images/projects/racheakt.png"
+    },
+    {
+        "title": "FamTastic",
+        "description": "A competitive game for household chores to reduce family conflicts.",
+        "language": ["german"],
+        "link": "https://youtu.be/pY2SYK5Euew",
+        "image": "assets/images/projects/famtastic.png"
     }
 ]
